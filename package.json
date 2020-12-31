@@ -1,6 +1,6 @@
 {
   "name": "debug-browser",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Directly import the 'debug' library into the browser.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -16,6 +16,8 @@
     "debug": "^4.3.1"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.12.11",
+    "@rollup/plugin-babel": "^5.2.2",
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.0.1",
     "rollup": "^2.35.1"
