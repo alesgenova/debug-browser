@@ -1,0 +1,23 @@
+{
+  "name": "debug-browser",
+  "version": "0.1.0",
+  "description": "Directly import the 'debug' library into the browser.",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "Alessandro Genova",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^4.3.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.1",
+    "rollup": "^2.35.1"
+  }
+}
